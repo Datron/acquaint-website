@@ -1,5 +1,5 @@
-title: Azimuth
-baseurl: /
+title: Acquaint
+baseurl: 
 permalink: '/:title/'
 collections:
   posts:
@@ -7,7 +7,7 @@ collections:
 palette: blue
 header:
   logo_img: images/logo.png
-  has_nav: true
+  has_nav: false
   nav_links:
     - label: Home
       url: /
@@ -22,8 +22,8 @@ header:
       primary: true
 footer:
   logo_img: images/logo_alt.png
-  tagline: SaaS theme by Stackbit
-  has_nav: true
+  tagline: The network dating app
+  has_nav: false
   nav_title: Company
   nav_links:
     - label: About Us
@@ -46,13 +46,13 @@ footer:
     - label: LinkedIn
       url: 'https://www.linkedin.com/'
       new_window: true
-  has_subscribe: true
+  has_subscribe: false
   subscribe_title: Subscribe
   subscribe_content: Stay up to date with our latest developments.
-  content: '&copy; Stackbit. All rights reserved.'
+  content: '&copy; Acquaint. All rights reserved.'
   links:
-    - label: Made with Stackbit
-      url: 'https://www.stackbit.com'
+    - label: Made with Jekyll
+      url: 'https://jekyllrb.com/'
       new_window: true
 sass:
   indentWidth: 4
